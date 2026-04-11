@@ -1,8 +1,8 @@
-Analysis,Test Statistic,p_value,Effect Size,Interpretation
-Gender (Female vs Male),t = 4.87,< 0.001 ***,Small (d=0.15),Females score significantly higher
-Tutoring (Yes vs No),t = 16.35,< 0.001 ***,Large (d=0.83),Tutoring provides substantial benefit
-Region (Urban vs Rural),t = 3.12,0.002 **,Small (d=0.10),Urban students have slight advantage
-Parent Education (ANOVA),F = 11.34,< 0.001 ***,Small (η²=0.01),Higher parent education → better scores
-Hours Studied/Week (Correlation),r = 0.46,< 0.001 ***,Moderate,More study hours → better scores
-Attendance (%) (Correlation),r = 0.56,< 0.001 ***,Moderate-Strong,Higher attendance → better scores
-Regression Model R²,R² = 0.54,< 0.001 ***,54% variance explained,Model explains majority of variance
+Analysis,Test_Statistic,p_value,Effect_Size,Key_Finding
+Gender (Female vs Male),t=4.87,<0.001***,Small,Females score 1.7 points higher
+Tutoring (Yes vs No),t=16.35,<0.001***,Large,Tutoring adds +12.4 points
+Region (Urban vs Rural),t=3.12,0.002**,Small,Urban students +2.3 points
+Parent Education (ANOVA),F=11.34,<0.001***,Small,Tertiary education highest scores
+Hours Studied (Correlation),r=0.46,<0.001***,Moderate,+2.5 points per hour studied
+Attendance (Correlation),r=0.56,<0.001***,Moderate-Strong,+0.67 points per % attendance
+Regression Model R²,R²=0.54,<0.001***,54% var,Model explains most variance
